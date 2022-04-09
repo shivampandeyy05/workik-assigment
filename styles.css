@@ -78,6 +78,7 @@
 .right-container img{
     padding-left: 10%;
     margin: 6%;
+    width:auto;
 }
 /* For-Mobile-View */
 @media screen and (max-width: 600px) {
