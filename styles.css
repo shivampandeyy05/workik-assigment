@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container{
+    display: none;
+}
+.flex-container{
+    display: flex;
+    height: 700px;
+}
+/* Left-Section */
+.flex-left{
+    flex: 1;
+    background-color: rgb(0, 174, 255);
+}
+.flex-left h1{
+    color: white;
+    padding-top: 20%;
+    padding-left: 15%;
+    padding-right: 35%;
+    padding-bottom: 5%;
+    font-size: 65px;
+    line-height: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.flex-left p {
+    color: white;
+    padding-left: 15%;
+    padding-right: 34%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px ;
+}
+.flex-left button{
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin-left: 14%;
+    margin-top: 20px;
+    
+}
+.flex-left img{
+    padding-left: 8%;
+}
+.text{
+    display: flex;
+}
+.text p {
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+/* Right-Section */
+.flex-right{
+    flex: 1;
+    padding-top:10% ;
+ }
+.right-container{
+    display: flex;
+}
+.right-container p {
+    font-family: 'Nunito', sans-serif;
+    padding-right: 15%;
+    line-height: 200%;
+}
+.right-container h3{
+    font-family: 'Nunito', sans-serif;
+    margin: 4% 0;
+}
+.right-container img{
+    padding-left: 10%;
+    margin: 6%;
+}
+/* For-Mobile-View */
+@media screen and (max-width: 600px) {
+
+    .logo-container{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .logo-container h1{
+        margin: 5px;
+        margin-left: 20px !important;
+    }
+
+    .logo-container img{
+        margin-top: 10px;
+        height: fit-content;
+        width: fit-content;
+        margin-right: 20px !important;
+    }
+
+    .flex-container {
+      flex-direction: column;
+    }
+    .flex-left p {
+        padding-right:25%;
+        padding-bottom: 5%;
+        font-size:18px ;
+    }
+    .flex-left h1{
+        padding-right:15% ;
+    }
+    .flex-left button{
+        width: 60px;
+        height: 45px;
+    }
+    .right-container img{
+        padding-left: 5%;
+        margin:6%;
+        height: 5%;
+    }
+    .right-container p{
+       padding-bottom: 20px;
+    }
+ }
